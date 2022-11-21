@@ -13,7 +13,7 @@ provider "aws" {
         #profile = "default"
 	}
 
-resource "aws_instance" "Anoop_Infra." {
+resource "aws_instance" "Anoop_Infra" {
 	ami = "ami-0b0dcb5067f052a63" 
 	instance_type = "t2.micro"
 }
